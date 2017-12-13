@@ -1,0 +1,251 @@
+/**********************************
+GENERAL
+***********************************/
+html,
+nav,
+h1 {
+  background-color: rgb(255, 239, 213);
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  width: 700px;
+  height: 500px;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+.map{ 
+    padding-left: 20%;
+    padding-right: 50%;
+}
+div.hours{
+  font-size: 10px;
+}
+/**********************************
+HEADING
+***********************************/
+
+header {
+  background-color: rgb(255, 239, 213);
+}
+
+#logo {
+  font-family: "Gloria Hallelujah", cursive;
+  margin: 95px 2.75rem;
+  font-size: 1.75em;
+  font-weight: normal;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+/**********************************
+NAVIGATION
+***********************************/
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0px 10px;
+  padding: 0px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 10px 20px;
+}
+.nav {
+  font-size: 2em;
+  font-family: "Pacifico", cursive;
+}
+.mid-nav {
+  color: black;
+}
+/**********************************
+FOOTER
+***********************************/
+footer {
+  font-size: 1em;
+  text-align: center;
+  padding-top: 50px;
+  color: #111;
+}
+
+.contact-btn {
+  cursor: pointer;
+  text-align: center;
+}
+
+.contact-btn a:active {
+  position: relative;
+  bottom: 2px;
+}
+
+/**********************************
+COLORS
+***********************************/
+
+/* site body */
+body {
+  color: #999;
+}
+
+/* header */
+header {
+  background: #fff;
+}
+
+/* nav background on mobile */
+.nav {
+  background: ;
+}
+
+/* logo text */
+h1 {
+  color: #fff;
+}
+
+/* links */
+a {
+  color: #663600;
+}
+
+/* nav link */
+nav a,
+nav a:visited {
+  color: #663600;
+}
+
+/* selected nav link */
+nav a.nav,
+nav a:hover {
+  color: #663600;
+}
+
+p {
+  color: ;
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  font-size: 3.5em;
+}
+
+.page-title {
+  color: black;
+}
+
+#logo {
+  color: #000000;
+}
+
+/**********************************
+GALLeRY
+***********************************/
+
+#gallery {
+  list-style: none;
+  padding-left: 95px;
+  padding-right: 95px;
+}
+
+#gallery li {
+  margin: 1.5%;
+}
+
+#gallery li p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  font-color: black;
+}
+.home-img {
+  max-width: 100%;
+  width: 400px;
+  height: 200px;
+  list-style: none;
+}
+/**********************************
+WAVEs, border
+***********************************/
+.wave {
+  background: linear-gradient(to right, sandybrown, chocolate);
+  height: 90px;
+  position: relative;
+}
+.wave::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-repeat: repeat;
+  height: 10px;
+  background-size: 20px 20px;
+  background-image: radial-gradient(
+    circle at 10px -5px,
+    transparent 12px,
+    maroon 13px
+  );
+}
+#top,
+#bottom,
+#left,
+#right {
+  background: #a5ebff;
+  position: fixed;
+}
+#left,
+#right {
+  top: 0;
+  bottom: 0;
+  width: 15px;
+}
+#left {
+  left: 0;
+}
+#right {
+  right: 0;
+}
+
+#top,
+#bottom {
+  left: 0;
+  right: 0;
+  height: 15px;
+}
+#top {
+  top: 0;
+}
+#bottom {
+  bottom: 0;
+}
+@media only screen and (max-width: 500px),
+  only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #top,
+  #bottom,
+  #left,
+  #right {
+    display: none;
+  }
+}
